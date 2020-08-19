@@ -8,18 +8,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="p5.play.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
-
-
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    
     <script>
-      //Your web app's Firebase configuration
-      
-      // // Initialize Firebase
-      // firebase.initializeApp(firebaseConfig);
-
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyC1HDITGRzk9FpRukd8FlR17LUnw8Ztnw0",
+        authDomain: "c-39-marking-the-player.firebaseapp.com",
+        databaseURL: "https://c-39-marking-the-player.firebaseio.com",
+        projectId: "c-39-marking-the-player",
+        storageBucket: "c-39-marking-the-player.appspot.com",
+        messagingSenderId: "608609174537",
+        appId: "1:608609174537:web:95cd0c8a7e9540d636a4d8"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
     </script>
 
     <script src="js/Player.js"></script>
